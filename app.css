@@ -1,0 +1,11 @@
+.iv{display:flex;flex-direction:column;gap:12px;height:100%;align-items:center}
+.iv-set{display:flex;gap:10px;width:100%}
+.iv-set label{flex:1;display:flex;flex-direction:column;gap:3px;font-size:.78rem;opacity:.9;text-align:center}
+.iv-set input{padding:7px;border:1px solid var(--muted-bg,#444);border-radius:6px;background:var(--surface,#1e1e1e);color:var(--text,#eee);text-align:center}
+.iv-phase{margin-top:10px;font-size:1.6rem;font-weight:700;padding:4px 20px;border-radius:10px}
+.iv-phase.work{background:rgba(39,174,96,.25);color:#2ecc71}.iv-phase.rest{background:rgba(52,152,219,.25);color:#3498db}.iv-phase.done{background:rgba(241,196,15,.25);color:#f1c40f}
+.iv-time{font-size:3.4rem;font-weight:800;font-variant-numeric:tabular-nums}
+.iv-round{opacity:.8}
+.iv-btns{display:flex;gap:10px;margin-top:auto}
+.iv-btns button{padding:12px 24px;border:0;border-radius:10px;color:#fff;cursor:pointer;font-size:1rem}
+#iv-start{background:var(--accent2,#27ae60)}#iv-reset{background:var(--muted-bg,#555)}
